@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
-I can make a peaceful atmosphere in your group.
+*I can make a peaceful atmosphere in your group.*
 Build by @EliteDarkRay for @hedwigditto, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
@@ -71,6 +71,7 @@ the things I can help you with.
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
+   • for more help contact my owner @elitedarkray
 
 
 {}
@@ -81,7 +82,9 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/bf735327cf1f08905955d.jpg"
 
-DONATE_STRING = """Contact https://t.me/Eltedarkray."""
+DONATE_STRING = """Hi, {} 
+*If you like to donate something to me but I am not in a state of receive donates will please Contact* https://t.me/Eltedarkray.
+If you have any problems using my bot please contact me I will fix it"""
 
 IMPORTED = {}
 MIGRATEABLE = []
