@@ -54,7 +54,7 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
 I can make a peaceful atmosphere in your group.
-Build by @anandlals for @hedwigditto, I specialize in managing anime and similar themed groups.
+Build by @EliteDarkRay for @hedwigditto, I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
@@ -81,7 +81,7 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/bf735327cf1f08905955d.jpg"
 
-DONATE_STRING = """Contact https://t.me/anandlals."""
+DONATE_STRING = """Contact https://t.me/Eltedarkray."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -214,12 +214,12 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="My Owner",
-                             url="https://t.me/anandlals")
+                             url="https://t.me/elitedarkray")
                      ],
                      [
                          InlineKeyboardButton(
                              text="Source code",
-                             url="https://t.me/anandlals")
+                             url="https://t.me/elitedarkray")
                      ]]))
     else:
         update.effective_message.reply_text(
