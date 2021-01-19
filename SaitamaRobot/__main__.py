@@ -89,9 +89,20 @@ And the following:
 
 SAITAMA_IMG = "https://telegra.ph/file/bf735327cf1f08905955d.jpg"
 
-DONATE_STRING = """Hi, {} 
-*If you like to donate something to me but I am not in a state of receive donates will please Contact* https://t.me/Eltedarkray.
-If you have any problems using my bot please contact me I will fix it"""
+DONATE_STRING = """Thanks for try to donating but
+*If you like to donate something to me but I am not in a state of receive donates will please Contact* https://t.me/Elitedarkray.
+If you have any problems using my bot please contact me I will fix it
+And try my another bots (list will add soon) because now bot is not completely fixed bot under maintenance
+Some time bot will come to slow that time you know bot under maintenance because this is my first work
+Have any mistakes in this bot please tell to me I will fix it
+But you don't worry because I never disturb in personal message or your group and your data's doesn't lose they will be safe in bot server
+If you want any help to manage group please contact me I will help you
+Then more features will add soon please wait for that
+Well everything is working fine let's enjoy with me in managing group
+
+*Thank you* 
+for using my bot
+@elitedarkray"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -215,7 +226,7 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="Support Group",
+                             text="Support Chat",
                              url=f"https://t.me/hedwigdittochannelsindex"),
                          InlineKeyboardButton(
                              text="Updates Channel",
@@ -233,7 +244,7 @@ def start(update: Update, context: CallbackContext):
                      ]]))
     else:
         update.effective_message.reply_text(
-            "I'm already online join this channel @hedwigditto to get an entertainment!\n<b>Haven't slept since:</b> <code>{}</code>"
+            "I'm already online have any problems contact my owner @elitedarkray!\n<b>Haven't slept since:</b> <code>{}</code>"
             .format(uptime),
             parse_mode=ParseMode.HTML)
 
