@@ -54,13 +54,20 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am an Anime themed group management bot.
 *I can make a peaceful atmosphere in your group.*
-Build by @EliteDarkRay for @hedwigditto, I specialize in managing anime and similar themed groups.
+
+Created by @EliteDarkRay 
+
+For @hedwigditto 
+
+I specialize in managing anime and similar themed groups.
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Below commands helpful to manage me
+I'm a Hero For Fun and help admins manage their groups with One Punch! 
+*Flowing commands will help you to manage me* 
+*Have any doubts contact my owner @elitedarkray*
  Have a look at the following for an idea of some of \
 the things I can help you with.
 
