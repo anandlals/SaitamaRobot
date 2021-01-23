@@ -104,8 +104,6 @@ Well everything is working fine let's enjoy with me in managing group
 for using my bot
 @elitedarkray"""
 
-UPDATE_STRING = """Your Bot is Completely updated"""
-
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
